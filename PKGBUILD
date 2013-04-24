@@ -9,7 +9,7 @@ backup=('etc/btsync.conf')
 install="${pkgname}.install"
 source=("bittorrent-sync.install"
 	"bittorrent-sync.service")
-sha256sums=("83de7bedb786f6f256aa0a4d3954cb4c08383ae98cdbd73a419d99b9813e7845"
+sha256sums=("ebf6e87bc4d34612526b8f81993a981a604f3152650d51289c529d236a318d47"
 	    "cdc2f5ecc317e7f4d8df23de20d5432590a07d7c81691f0aab6d1c00764fa57e")
 
 if test "$CARCH" == x86_64; then
