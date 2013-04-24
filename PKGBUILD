@@ -10,7 +10,7 @@ install="${pkgname}.install"
 source=("bittorrent-sync.install"
 	"bittorrent-sync.service")
 sha256sums=("ebf6e87bc4d34612526b8f81993a981a604f3152650d51289c529d236a318d47"
-	    "cdc2f5ecc317e7f4d8df23de20d5432590a07d7c81691f0aab6d1c00764fa57e")
+	    "40c16a9d249788494c55362522c7c2760a25758173ee890ea5022f88a1ce1368")
 
 if test "$CARCH" == x86_64; then
 	source+=("http://btsync.s3-website-us-east-1.amazonaws.com/btsync_x64.tar.gz")
